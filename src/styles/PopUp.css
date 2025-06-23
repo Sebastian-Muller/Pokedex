@@ -1,0 +1,135 @@
+.popup-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;      /* Centra verticalmente */
+    justify-content: center;  /* Centra horizontalmente */
+    z-index: 1000;
+    min-height: 100vh;        /* Asegura que ocupe toda la altura */
+}
+
+.popup-content {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px 24px;
+    min-width: 650px;      /* Más ancho */
+    max-width: 900px;     /* Más ancho */
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+}
+
+.popup-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;      /* Sin fondo */
+    color: #222;           /* X en negro */
+    border: none;
+    border-radius: 0;      /* Sin borde redondeado */
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: none;      /* Sin sombra */
+}
+
+.popup-flex {
+    display: flex;
+    gap: 32px;
+    align-items: stretch;      /* Hace que todas las columnas tengan la misma altura */
+    justify-content: center;
+}
+
+.popup-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+    max-width: 180px;
+}
+
+.popup-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* Centra horizontalmente */
+    min-width: 120px;
+    max-width: 160px;
+    justify-content: center;   /* Centra verticalmente */
+    gap: 8px;
+    height: 100%;
+    margin: auto 0;            /* Centra verticalmente dentro del flex */
+}
+
+.popup-col-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+    max-width: 160px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.popup-name {
+    text-transform: capitalize;
+}
+
+.popup-sprite {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.popup-types {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.popup-stats-title {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.popup-stats-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.popup-stats-names,
+.popup-stats-values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.popup-stats-names {
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.popup-stats-values {
+    font-weight: bold;
+    color: #222;
+}
+
+.popup-sprites-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.popup-sprites-row .popup-sprite:not(:first-child) {
+    margin-left: -20px; /* Ajusta este valor para más o menos superposición */
+}

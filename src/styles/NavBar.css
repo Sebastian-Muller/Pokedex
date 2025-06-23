@@ -1,21 +1,26 @@
 .navbar {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #333; /* Fondo oscuro */
-  padding: 10px 20px;
+  background-color: #333;
+  padding: 10px;
 }
 
 .navbar a {
-  color: white; /* Texto blanco */
-  text-decoration: none; /* Sin subrayado */
-  margin: 0 15px; /* Espaciado entre enlaces */
-  font-size: 18px; /* Tamaño de fuente */
-  font-weight: bold;
-  transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.navbar a,
+.navbar a:visited,
+.navbar a:active,
+.navbar a:hover,
+.navbar a:focus {
+  text-decoration: none !important;
 }
 
 .navbar a:hover {
-  color: #ffcc00; /* Cambia el color al pasar el mouse */
-  text-decoration: underline; /* Subrayado al pasar el mouse */
+  color: #FFCB05;      /* Amarillo Pokémon */
+  text-decoration: none;
 }

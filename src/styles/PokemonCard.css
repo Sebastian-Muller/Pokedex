@@ -1,0 +1,118 @@
+/* Puedes agregar esto en App.css o crear PokemonCard.css e importarlo */
+.pokemon-card {
+    position: relative;
+    width: 170px;
+    height: 220px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pokemon-number {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0000008f;
+    background: none;
+    border: none;
+    padding: 2px 8px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.sprite-bg {
+    width: 100%;
+    flex: 0 0 60%; /* Ocupa el 60% de la altura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px 16px 0 0;
+    margin-bottom: 0;
+}
+
+.pokemon-info {
+    width: 100%;
+    flex: 1 0 40%; /* Ocupa el 40% restante */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-sprite {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin: 0;
+    padding-top: 30px;
+    z-index: 1;
+    display: block;
+}
+
+.pokemon-name {
+    margin: 8px 0 4px 0;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.pokemon-types {
+    display: flex;
+    gap: 2px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.type-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    background: #888;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    color: #fff;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.type-badge:last-child {
+    margin-right: 0;
+}
+
+/* Colores por tipo */
+.type-normal    { background: #A8A77A; color: #333; }
+.type-fire      { background: #EE8130; }
+.type-water     { background: #6390F0; }
+.type-electric  { background: #F7D02C; color: #333; }
+.type-grass     { background: #7AC74C; }
+.type-ice       { background: #96D9D6; color: #333; }
+.type-fighting  { background: #C22E28; }
+.type-poison    { background: #A33EA1; }
+.type-ground    { background: #E2BF65; color: #333; }
+.type-flying    { background: #A98FF3; }
+.type-psychic   { background: #F95587; }
+.type-bug       { background: #A6B91A; color: #333; }
+.type-rock      { background: #B6A136; color: #333; }
+.type-ghost     { background: #735797; }
+.type-dragon    { background: #6F35FC; }
+.type-dark      { background: #705746; }
+.type-steel     { background: #B7B7CE; color: #333; }
+.type-fairy     { background: #D685AD; }
