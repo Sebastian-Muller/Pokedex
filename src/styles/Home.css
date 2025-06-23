@@ -1,0 +1,22 @@
+.home {
+    height: 100vh; 
+    width: 100vw;
+    background-image: url('../assets/backgrounds/wallpaper_Bul_Squ_Cha.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.home h1 {
+    font-size: 4rem; 
+    font-weight: bold; 
+    margin: 0;
+    text-align: center;
+    color: #ffcc00; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
+}
