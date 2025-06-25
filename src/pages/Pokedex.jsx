@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import PokemonCard from './PokemonCard';
+import PokemonCard from '../components/PokemonCard';
 
 const LIMIT = 50;
 
-const PokemonList = () => {
+const Pokedex = () => {
   const [pokemons, setPokemons] = useState([]);
   const [offset, setOffset] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -56,4 +56,4 @@ const PokemonList = () => {
   );
 };
 
-export default PokemonList;
+export default Pokedex;

@@ -10,13 +10,12 @@
 }
 
 .popup-content {
-    background: #fff;
     border-radius: 16px;
     padding: 32px 24px;
-    min-width: 650px;      /* Más ancho */
-    max-width: 900px;     /* Más ancho */
+    min-width: 700px;      /* Más ancho */
+    max-width: 950px;     /* Más ancho */
     max-height: 90vh;
-    overflow-y: auto;
+    overflow: visible; /* Cambia de auto a visible */
     position: relative;
     box-shadow: 0 4px 32px rgba(0,0,0,0.3);
 }
@@ -132,4 +131,46 @@
 
 .popup-sprites-row .popup-sprite:not(:first-child) {
     margin-left: -20px; /* Ajusta este valor para más o menos superposición */
+}
+
+.shiny-glow {
+    animation: shinyPulse 0.8s ease-in-out;
+}
+@keyframes shinyPulse {
+    0% { filter: brightness(1); }
+    50% { filter: brightness(1.7); }
+    100% { filter: brightness(1); }
+}
+
+@media (max-width: 600px) {
+  .popup-content {
+    min-width: 90vw;
+    max-width: 98vw;
+    padding: 0px 0px;
+  }
+
+  .popup-flex {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .popup-col,
+  .popup-col-left,
+  .popup-col-center,
+  .popup-col-right {
+    min-width: unset;
+    max-width: unset;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popup-sprites-row {
+    margin-bottom: 5px;
+  }
+
+  .popup-stats-title {
+    margin-top: 10px;
+  }
 }

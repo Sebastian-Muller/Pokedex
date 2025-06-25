@@ -1,14 +1,25 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;   
-    background-color: #4e0000;
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Poppins', Arial, sans-serif;
+  text-align: center;
+  background: transparent !important;
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     text-align: center;
-    background-color: #4e0000;
     margin: 0;
     min-height: 100vh;
 }
@@ -58,3 +69,33 @@ h1 {
   font-size: 18px;
   color: #555;
 }
+
+:root {
+  --type-fire: #EE8130;
+  --type-water: #6390F0;
+  --type-grass: #7AC74C;
+  --type-electric: #F7D02C;
+  --type-ice: #96D9D6;
+  --type-fighting: #C22E28;
+  --type-poison: #A33EA1;
+  --type-ground: #E2BF65;
+  --type-flying: #A98FF3;
+  --type-psychic: #F95587;
+  --type-bug: #A6B91A;
+  --type-rock: #B6A136;
+  --type-ghost: #735797;
+  --type-dragon: #6F35FC;
+  --type-dark: #705746;
+  --type-steel: #B7B7CE;
+  --type-fairy: #D685AD;
+  --type-normal: #A8A77A;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle at 50% 30%, #1e1e2a, #0e0e14 80%);
+  overflow-x: hidden;
+}
+
+
