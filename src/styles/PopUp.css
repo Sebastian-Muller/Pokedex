@@ -12,7 +12,7 @@
 .popup-content {
     border-radius: 16px;
     padding: 32px 24px;
-    min-width: 700px;      /* Más ancho */
+    min-width: 800px;      /* Más ancho */
     max-width: 950px;     /* Más ancho */
     max-height: 90vh;
     overflow: visible; /* Cambia de auto a visible */
@@ -24,15 +24,15 @@
     position: absolute;
     top: 12px;
     right: 16px;
-    background: none;      /* Sin fondo */
-    color: #222;           /* X en negro */
+    background: none;  
+    color: #222; 
     border: none;
-    border-radius: 0;      /* Sin borde redondeado */
+    border-radius: 0;
     width: 32px;
     height: 32px;
     font-size: 1.2rem;
     cursor: pointer;
-    box-shadow: none;      /* Sin sombra */
+    box-shadow: none; 
 }
 
 .popup-flex {
@@ -74,6 +74,7 @@
 
 .popup-name {
     text-transform: capitalize;
+    color: black;
 }
 
 .popup-sprite {
@@ -92,9 +93,10 @@
 .popup-stats-title {
     text-align: center;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: under;
     margin-bottom: 8px;
     font-size: 1.1rem;
+    color: black;    
 }
 
 .popup-stats-list {

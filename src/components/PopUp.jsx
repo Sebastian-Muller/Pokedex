@@ -141,10 +141,10 @@ const PopUp = ({ pokemon, onClose }) => {
                     </div>
                     {/* Columna centro: habilidad, altura, peso */}
                     <div className="popup-col popup-col-center">
-                        <div style={{ position: 'relative', display: 'inline-block' }}>
+                        <div style={{ position: 'relative', display: 'inline-block', color: 'black' }}>
                             <strong>Habilidad:</strong>{' '}
                             <span
-                                style={{ textDecoration: 'underline dotted', cursor: 'help' }}
+                                style={{ textDecoration: 'underline', cursor: 'help', color: 'black', fontWeight: 'bold' }}
                                 onMouseEnter={() => setShowTooltip(true)}
                                 onMouseLeave={() => setShowTooltip(false)}
                             >
@@ -158,7 +158,7 @@ const PopUp = ({ pokemon, onClose }) => {
                                         top: '120%',
                                         transform: 'translateX(-50%)',
                                         background: '#fff',
-                                        color: '#222',
+                                        color: 'black',
                                         border: '1px solid #ccc',
                                         borderRadius: 8,
                                         padding: '8px 12px',
@@ -174,12 +174,12 @@ const PopUp = ({ pokemon, onClose }) => {
                                 </div>
                             )}
                         </div>
-                        <div><strong>Altura:</strong> {(pokemon.height / 10).toFixed(2)} m</div>
-                        <div><strong>Peso:</strong> {(pokemon.weight / 10).toFixed(1)} kg</div>
+                        <div style={{color: 'black' }}><strong>Altura:</strong> {(pokemon.height / 10).toFixed(2)} m</div>
+                        <div style={{color: 'black' }}><strong>Peso:</strong> {(pokemon.weight / 10).toFixed(1)} kg</div>
                     </div>
                     {/* Columna derecha: stats con Chart.js */}
                     <div className="popup-col popup-col-right" style={{ minWidth: 220, maxWidth: 260 }}>
-                        <div className="popup-stats-title">Stats</div>
+                        <div className="popup-stats-title" style={{color: 'black' }}>Stats</div>
                         <div style={{ width: 300, height: 180 }}>
                             <Bar data={data} options={options} />
                         </div>

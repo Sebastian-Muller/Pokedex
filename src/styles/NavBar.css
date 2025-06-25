@@ -2,8 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #222;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   padding: 10px;
   min-height: 3vh;
 }
@@ -99,6 +103,14 @@
 
 /* Solo móvil: hamburguesa visible, links ocultos, título visible */
 @media (max-width: 700px) {
+  .navbar {
+    min-height: 8vh;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+      
+  }
   .navbar-hamburger {
     display: flex;
   }

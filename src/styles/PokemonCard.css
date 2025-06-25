@@ -3,8 +3,8 @@
     position: relative;
     width: 170px;
     height: 230px;
-    background: #ffffff;
-    border-radius: 1rem;
+    background: whitesmoke;
+    border-radius: 0.5rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     margin: 16px;
     display: flex;
@@ -24,7 +24,7 @@
 .pokemon-number {
     position: absolute;
     top: 8px;
-    left: 12px;
+    left: 5px;
     font-size: 1.2rem;
     font-weight: bold;
     color: #0000008f;
@@ -37,12 +37,13 @@
 
 .sprite-bg {
     width: 100%;
-    flex: 0 0 60%; /* Ocupa el 60% de la altura */
+    flex: 0 0 60%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 16px 16px 0 0;
+    border-radius: 0; 
     margin-bottom: 0;
+    background: transparent; 
 }
 
 .pokemon-info {
