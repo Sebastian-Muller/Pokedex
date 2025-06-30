@@ -30,7 +30,7 @@
     "react-router-dom": "^7.6.2",
     "react-scripts": "5.0.1"
   },
-  "homepage": "http://yourusername.github.io/pokedex-app",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
