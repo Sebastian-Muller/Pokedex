@@ -32,7 +32,7 @@ const NavBar = () => {
       </button>
       <div className={`navbar-links${open ? ' open' : ''}`}>
         <Link to="/" onClick={() => setOpen(false)}>Inicio</Link>
-        <Link to="/pokemons" onClick={() => setOpen(false)}>Pokédex</Link>
+        <Link to="/pokedex" onClick={() => setOpen(false)}>Pokédex</Link>
         <Link to="/team" onClick={() => setOpen(false)}>Equipo</Link>
       </div>
     </nav>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.11439b61.css",
-    "main.js": "./static/js/main.f65eed5b.js",
+    "main.js": "./static/js/main.72c69f9d.js",
     "static/media/Mountain_background.jpg": "./static/media/Mountain_background.d137c14def130482bcdb.jpg",
     "static/media/Pokemon.png": "./static/media/Pokemon.03d2cb1ce4ff520cb058.png",
     "static/media/Poppins-Regular.ttf": "./static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -24,10 +24,10 @@
     "static/media/grass.jpg": "./static/media/grass.31e176799dfb7f34aa90.jpg",
     "index.html": "./index.html",
     "main.11439b61.css.map": "./static/css/main.11439b61.css.map",
-    "main.f65eed5b.js.map": "./static/js/main.f65eed5b.js.map"
+    "main.72c69f9d.js.map": "./static/js/main.72c69f9d.js.map"
   },
   "entrypoints": [
     "static/css/main.11439b61.css",
-    "static/js/main.f65eed5b.js"
+    "static/js/main.72c69f9d.js"
   ]
 }
