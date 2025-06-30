@@ -32,7 +32,7 @@ function AppRoutesWithLoader() {
       ) : (
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/pokemons" element={<Pokedex />} />
+          <Route path="/pokedex" element={<Pokedex />} />
           <Route path="/team" element={<Team />} />
         </Routes>
       )}
