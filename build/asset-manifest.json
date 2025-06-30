@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/pokedex-app/static/css/main.6fb4a1c1.css",
+    "main.js": "/pokedex-app/static/js/main.47f91e71.js",
+    "static/media/Mountain_background.jpg": "/pokedex-app/static/media/Mountain_background.d137c14def130482bcdb.jpg",
+    "static/media/Pokemon.png": "/pokedex-app/static/media/Pokemon.03d2cb1ce4ff520cb058.png",
+    "static/media/Poppins-Regular.ttf": "/pokedex-app/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/psychic.jpg": "/pokedex-app/static/media/psychic.609c2f1f6b47df671164.jpg",
+    "static/media/flying.jpg": "/pokedex-app/static/media/flying.9188f23c745f5f2e53c4.jpg",
+    "static/media/fairy.jpg": "/pokedex-app/static/media/fairy.0b113e09b7596452bb12.jpg",
+    "static/media/rock.jpg": "/pokedex-app/static/media/rock.57cc9f73e9ee9e3ac558.jpg",
+    "static/media/fire.jpg": "/pokedex-app/static/media/fire.f59346f7801716909ec8.jpg",
+    "static/media/dragon.jpg": "/pokedex-app/static/media/dragon.0ecee103fac3c69b0c0c.jpg",
+    "static/media/fighting.jpg": "/pokedex-app/static/media/fighting.781e480efe173d5d98df.jpg",
+    "static/media/bug.jpg": "/pokedex-app/static/media/bug.8e3e821b3139a3e7576f.jpg",
+    "static/media/water.jpg": "/pokedex-app/static/media/water.8cdcd2fffd5326357ac2.jpg",
+    "static/media/normal.jpg": "/pokedex-app/static/media/normal.9ec833ab366a840555f2.jpg",
+    "static/media/steel.jpg": "/pokedex-app/static/media/steel.3a35d616520093bfb7c0.jpg",
+    "static/media/ground.jpg": "/pokedex-app/static/media/ground.a99a25ee765516c1cbc3.jpg",
+    "static/media/ice.jpg": "/pokedex-app/static/media/ice.d419f0b97bad577dfd30.jpg",
+    "static/media/poison.jpg": "/pokedex-app/static/media/poison.5b352b605ab2b6ab161c.jpg",
+    "static/media/ghost.jpg": "/pokedex-app/static/media/ghost.19e573f91530717d7da5.jpg",
+    "static/media/dark.jpg": "/pokedex-app/static/media/dark.ab3006658828e87d52b4.jpg",
+    "static/media/grass.jpg": "/pokedex-app/static/media/grass.31e176799dfb7f34aa90.jpg",
+    "index.html": "/pokedex-app/index.html",
+    "main.6fb4a1c1.css.map": "/pokedex-app/static/css/main.6fb4a1c1.css.map",
+    "main.47f91e71.js.map": "/pokedex-app/static/js/main.47f91e71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fb4a1c1.css",
+    "static/js/main.47f91e71.js"
+  ]
+}
