@@ -7,7 +7,7 @@
   z-index: 1000;
   background: #222;
   width: 100%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   padding: 10px;
   min-height: 3vh;
 }
@@ -82,6 +82,25 @@
   z-index: 1001;
 }
 
+.firma-link {
+  position: absolute;
+  left: 12px;
+  top: 65%;
+  transform: translateY(-50%);
+}
+
+.firma-navbar {
+  height: 32px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.firma-navbar:hover {
+  opacity: 1;
+}
+
+
 /* Ajustes para desktop */
 @media (min-width: 701px) {
   .navbar-hamburger {
@@ -109,8 +128,9 @@
     position: sticky;
     top: 0;
     z-index: 10;
-      
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   }
+  
   .navbar-hamburger {
     display: flex;
   }
@@ -140,6 +160,9 @@
     gap: 0;
     padding: 0;
     z-index: 1000;
+
+    
+    
   }
   .navbar-links.open {
     display: flex;
@@ -147,7 +170,21 @@
   .navbar a {
     padding: 16px 0;
     width: 100%;
+    max-height: 70%;
     text-align: center;
     border-bottom: 1px solid #444;
   }
+
+.firma-link {
+  position: absolute;
+  left: -10%;
+  transform: translateY(-95%);
+  border-bottom: none !important;
+  width: 150px !important;
+}
+
+.firma-navbar {
+  height: 36px;
+  cursor: pointer;
+}
 }

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/NavBar.css';
+import Signature from '../assets/logos/Firma.png';
 
 const pageNames = {
   '/': 'Inicio',
   '/pokemons': 'Pokédex',
   '/search': 'Buscar',
-  '/team': 'Crea tu equipo',
+  '/team': 'Equipo',
 };
 
 const NavBar = () => {
@@ -17,6 +18,9 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-title">{pageTitle}</div>
+      <a href="https://sebamuller-portfolio-dev.web.app/" target="_blank" rel="noopener noreferrer" className="firma-link">
+        <img src={Signature} alt="Created by" className="firma-navbar" />
+      </a>
       <button
         className="navbar-hamburger"
         onClick={() => setOpen(!open)}
@@ -29,7 +33,7 @@ const NavBar = () => {
       <div className={`navbar-links${open ? ' open' : ''}`}>
         <Link to="/" onClick={() => setOpen(false)}>Inicio</Link>
         <Link to="/pokemons" onClick={() => setOpen(false)}>Pokédex</Link>
-        <Link to="/team" onClick={() => setOpen(false)}>Crea tu equipo</Link>
+        <Link to="/team" onClick={() => setOpen(false)}>Equipo</Link>
       </div>
     </nav>
   );
